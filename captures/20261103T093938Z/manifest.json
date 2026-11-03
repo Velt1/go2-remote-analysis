@@ -1,0 +1,55 @@
+{
+  "utc": "2026-11-03T09:39:38.882909+00:00",
+  "sources": {
+    "core": {
+      "path": "/unitree/module/mcf/depend/libmcf_core.so",
+      "sha256": "e937fd0dffb8676d9281f29401f9519d6ba90ceb9e16b87d2b0660a0e8a51436"
+    },
+    "runtime": {
+      "path": "/unitree/module/mcf/depend/libmcf_runtime.so",
+      "sha256": "41517eb1438a326aaeb4c5fc372c555ed232f543c353b5413712ac2901b6f87c"
+    },
+    "ai": {
+      "path": "/unitree/module/mcf/module/ai/libgo2_ai_module.so",
+      "sha256": "92fcbe3538c27683c2fff0ea4c3d238c4ff96d87c90f93e5fdf0ddc90d48d83b"
+    },
+    "normal": {
+      "path": "/unitree/module/mcf/module/normal/libsport_mode.so",
+      "sha256": "20ca3da561e66bad31218327914800b42afc101845fee3f50844e6330fc202bd"
+    }
+  },
+  "process": {
+    "pid": 2036,
+    "runtime_base": "0x7f8a9ca000",
+    "runtime_maps": [
+      "7f8a9ca000-7f8adba000 r-xp 00000000 b3:07 393737                         /unitree/module/mcf/depend/libmcf_runtime.so",
+      "7f8adba000-7f8adbb000 r-xp 003f0000 b3:07 393737                         /unitree/module/mcf/depend/libmcf_runtime.so",
+      "7f8b353000-7f8b363000 ---p 00989000 b3:07 393737                         /unitree/module/mcf/depend/libmcf_runtime.so",
+      "7f8b363000-7f8b386000 rw-p 00409000 b3:07 393737                         /unitree/module/mcf/depend/libmcf_runtime.so",
+      "7f8b38a000-7f8b395000 ---p 009c0000 b3:07 393737                         /unitree/module/mcf/depend/libmcf_runtime.so",
+      "7f8b395000-7f8b3b4000 rw-p 0043b000 b3:07 393737                         /unitree/module/mcf/depend/libmcf_runtime.so",
+      "7f8b3b4000-7f8b3c3000 ---p 009ea000 b3:07 393737                         /unitree/module/mcf/depend/libmcf_runtime.so",
+      "7f8b3c3000-7f8b3c5000 rw-p 00469000 b3:07 393737                         /unitree/module/mcf/depend/libmcf_runtime.so"
+    ]
+  },
+  "live_code": [
+    {
+      "file": "runtime.live.774b28-774b6c.bin",
+      "relative_start": "0x774b28",
+      "size": 68,
+      "sha256": "c05ba0216826e56af9a7c927e93d18a778fc055259ea519baf0172a1ebf60157"
+    },
+    {
+      "file": "runtime.live.774bf0-774d0c.bin",
+      "relative_start": "0x774bf0",
+      "size": 284,
+      "sha256": "ec7c69c0c518b44a9298ffe17bca2058dff082e7e3a1355d29337f787e8ee74c"
+    },
+    {
+      "file": "runtime.live.774d0c-774e54.bin",
+      "relative_start": "0x774d0c",
+      "size": 328,
+      "sha256": "77e82832e7959a947d48996cd4664dfa5777d9ce2f21752fe7e1e968ce7e0b84"
+    }
+  ]
+}

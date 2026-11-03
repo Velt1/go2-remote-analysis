@@ -1,0 +1,1 @@
+Erster Erfassungsversuch: nach statischen Symbolen abgebrochen, weil im Skript versehentlich die Core-Build-ID statt der Runtime-Build-ID eingetragen war. Keine Prozessspeicher-Erfassung in diesem Verzeichnis. Im folgenden Capture korrigiert.
